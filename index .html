@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio:Setting Up Mobile Version</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="mobile-header">
+        <a href="#" class="logo">Basit Ali</a>
+        <nav>
+          <button type="button">
+            <i class="fa fa-bars" id="menu-img"></i>
+            <i class="w3-xxxlarge material-icons" id="close-icon">X</i>
+          </button>
+        </nav>
+        <div class="desktop-header">
+          <a href="#porfilio" id="portfolio">Portfolio</a>
+          <a href="#about1" id="about">About</a>
+          <a href="#contactx" id="contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="background-image">
+      <section class="headline">
+        <h1>I’m Basit Ali</h1>
+        <h2>Glad to see you!</h2>
+        <p>
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <a href="#">LET’S CONNECT</a>
+        <ul class="mediaicons">
+          <li>
+            <a href="#"><img src="imges/twitter.png" alt="twitterhandle" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="linked.png" alt="linkedprofilelink" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imges/mshape.png" alt="mshape" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imges/github.png" alt="github" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imges/hand.png" alt="handshape" /></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <section id="porfilio">
+      <!-- <div class="works">
+        <article class="work-card" data-name="p-1">
+          <div class="image" id="img1">
+            <img
+              class="image1"
+              src="images/SnapshootPortfolio1.png"
+              alt="work template"
+            />
+          </div>
+          <div class="intro" id="text1">
+            <h2>Tonic</h2>
+            <ul>
+              <li class="area">CANOPY</li>
+              <li class="dev">Back End Dev</li>
+              <li class="date">2015</li>
+            </ul>
+            <p id="para-item1">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="button">
+              <li class="html"><a href="#" class="button1">HTML</a></li>
+              <li class="css"><a href="#" class="button1">CSS</a></li>
+              <li class="java"><a href="#" class="button1">Javascript</a></li>
+            </ul>
+            <a href="#" class="see" id="project1"> See Project</a>
+          </div>
+        </article>
+        <article class="work-card" id="flipped">
+          <div class="image" id="img2">
+            <img
+              class="image1"
+              src="images/SnapshootPortfolio.png"
+              alt="work template"
+            />
+          </div>
+          <div class="intro" id="text2">
+            <h2>Multi-Post Stories</h2>
+            <ul class="list-items">
+              <li class="area">CANOPY</li>
+              <li class="dev">Back End Dev</li>
+              <li class="date">2015</li>
+            </ul>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="button">
+              <li class="html"><a href="#" class="button1">HTML</a></li>
+              <li class="css"><a href="#" class="button1">CSS</a></li>
+              <li class="java"><a href="#" class="button1">Javascript</a></li>
+            </ul>
+            <a href="#" class="see">See Project</a>
+          </div>
+        
+          <div class="intro" id="intro2">
+            <h2>Multi-Post Stories</h2>
+            <ul class="list-items">
+              <li class="area">Facebook</li>
+              <li class="dev">FUll stack Dev</li>
+              <li class="date">2015</li>
+            </ul>
+            <p id="para-item2">
+              Experimental content creation feature that allows users to add to
+              an existing story over the course of a day without spamming their
+              friends.
+            </p>
+            <ul class="button">
+              <li class="html"><a href="#" class="button1">HTML</a></li>
+              <li class="ruby">
+                <a href="#" class="button1">Ruby on rails</a>
+              </li>
+              <li class="css"><a href="#" class="button1">CSS</a></li>
+              <li class="java"><a href="#" class="button1">Javascript</a></li>
+            </ul>
+            <a href="#" class="see" id="project2">See Project</a>
+          </div>
+        </article>
+        <article class="work-card">
+          <div class="image" id="img3">
+            <img
+              class="image1"
+              src="images/SnapshootPortfolio(1).png"
+              alt="work template"
+            />
+          </div>
+          <div class="intro" id="text3">
+            <h2>Tonic</h2>
+            <ul>
+              <li class="area">CANOPY</li>
+              <li class="dev">Back End Dev</li>
+              <li class="date">2015</li>
+            </ul>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="button">
+              <li class="html"><a href="#">HTML</a></li>
+              <li class="css"><a href="#">CSS</a></li>
+              <li class="java"><a href="#">Javascript</a></li>
+            </ul>
+            <a href="#" class="see"> See Project</a>
+          </div>
+        
+          <div class="intro" id="intro3">
+            <h2>Facebook 360</h2>
+            <ul class="list-items">
+              <li class="area">Facebook</li>
+              <li class="dev">Full Stack Dev</li>
+              <li class="date">2015</li>
+            </ul>
+            <p id="para-item3">
+              Exploring the future of media in Facebook's first Virtual Reality
+              app; a place to discover and enjoy 360 photos and videos on Gear
+              VR.
+            </p>
+            <ul class="button">
+              <li class="html"><a href="#" class="button1">HTML</a></li>
+              <li class="ruby">
+                <a href="#" class="button1">Ruby on rails</a>
+              </li>
+              <li class="css"><a href="#" class="button1">CSS</a></li>
+              <li class="java"><a href="#" class="button1">Javascript</a></li>
+            </ul>
+            <a href="#" class="see" id="blue"> See Project</a>
+          </div>
+        </article>
+        <article class="work-card" id="flipped1">
+          <div class="image" id="img4">
+            <img
+              class="image1"
+              src="images/SnapshootPortfolio(2).png"
+              alt="work template"
+            />
+          </div>
+          <div class="intro" id="text4">
+            <h2>Multi-Post Stories</h2>
+            <ul>
+              <li class="area">CANOPY</li>
+              <li class="dev">Back End Dev</li>
+              <li class="date">2015</li>
+            </ul>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="button">
+              <li class="html"><a href="#">HTML</a></li>
+              <li class="css"><a href="#">CSS</a></li>
+              <li class="java"><a href="#">Javascript</a></li>
+            </ul>
+            <a href="#" class="see"> See Project</a>
+          </div>
+         
+          <div class="intro" id="intro4">
+            <h2>Uber Navigation</h2>
+            <ul class="list-items">
+              <li class="area">Uber</li>
+              <li class="dev">Lead Developer</li>
+              <li class="date">2018</li>
+            </ul>
+            <p id="para-item4">
+              A smart assistant to make driving more safe, efficient, and fun by
+              unlocking your most expensive computer: your car.
+            </p>
+            <ul class="button">
+              <li class="html"><a href="#" class="button1">HTML</a></li>
+              <li class="ruby">
+                <a href="#" class="button1">Ruby on rails</a>
+              </li>
+              <li class="css"><a href="#" class="button1">CSS</a></li>
+              <li class="java"><a href="#" class="button1">Javascript</a></li>
+            </ul>
+            <a href="#" class="see" id="project"> See Project</a>
+          </div>
+        </article>
+      </div> -->
+    </section>
+    <section class="about" id="about1">
+      <div class="back">
+        <article class="self">
+          <div>
+            <h2>
+              About<br />
+              My Self
+            </h2>
+
+            <p id="second-para">
+              Hello I’m a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+            <h3 class="connet">LET’S CONNECT</h3>
+            <ul class="accounts" id="account2">
+              <li>
+                <a href="#"><img src="images/github1.png" alt="github" /></a>
+              </li>
+
+              <li>
+                <a href="#"
+                  ><img src="images/Group.png" alt="linkedprofilelink"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="imges/twitter.png" alt="twitterhandle"
+                /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/mshape1.png" alt="mshape" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/hand1.png" alt="handshape" /></a>
+              </li>
+            </ul>
+            <div class="resume">
+              <a href="#" id="but"> Get my resume</a>
+            </div>
+          </div>
+          <div class="lan">
+            <ul>
+              <li class="skill">
+                Languages &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<img
+                  class="dropdown"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKxJREFUSEvtk9ENwjAMRF83YJN2BJiIEUo36EYwAmzCCOgkkEIax85HJZDirza63rMv7sDONezsTwe4CfeIfj+iC7ACT6PVA3AGFmuU2iXLfAbuwKkAkfkVmN4A6TdVA8jgBowFSGr+AI7WlN6aliDq8tN51VxCDyBNDtGZYnHNo4AcoveQeQsghejZzDy/5UhE6TeKS2WtbdMWuX9pRNA6QcTzS9MBbmT/H9ELPngdGfgDn7kAAAAASUVORK5CYII="
+                  alt="dropdown"
+                />
+              </li>
+              <li id="pro-li">
+                <ul class="pro">
+                  <li class="pro-item">
+                    <img src="images/html.png" alt="skill" />
+                    <p>HTML</p>
+                  </li>
+                  <li class="pro-item">
+                    <img src="images/css.png" alt="skill" />
+                    <p>CSS</p>
+                  </li>
+                  <li class="pro-item">
+                    <img src="images/javascript.png" alt="skill" />
+                    <p id="pro-item3">Javascript</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="frame">
+                Frameworks
+                <img
+                  class="drop2"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJVJREFUSEvt1EENgDAQRNFfBzgBCeAARyABJ0gACeAECWRvwIHubNKEAz0387rTtInCKxXO5weyDX+qohGYgCN77MsG7wQWPgAb0CmIF6iAFahVxAvY0CFEAUKICshIFFiABtiB9u3SVcDuwR1u4yqAHK4AoXAF6IHZ0/nzlSsVGWKPrchXoXw/t73KBCHkB7K1Fa/oBCp+IhnuHeH5AAAAAElFTkSuQmCC"
+                  alt="dropdown"
+                />
+              </li>
+              <li class="Skills">
+                Skills
+                <img
+                  class="drop3"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJVJREFUSEvt1EENgDAQRNFfBzgBCeAARyABJ0gACeAECWRvwIHubNKEAz0387rTtInCKxXO5weyDX+qohGYgCN77MsG7wQWPgAb0CmIF6iAFahVxAvY0CFEAUKICshIFFiABtiB9u3SVcDuwR1u4yqAHK4AoXAF6IHZ0/nzlSsVGWKPrchXoXw/t73KBCHkB7K1Fa/oBCp+IhnuHeH5AAAAAElFTkSuQmCC"
+                  alt="dropdown"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="contact-me" id="contactx">
+      <h2>Contact me</h2>
+      <p id="contact-p">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <div>
+        <form method="post" action="https://formspree.io/f/mnqwrjkp" id="form1">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            required
+            maxlength="30"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            rows="10"
+            cols="30"
+            placeholder="Write your message here"
+            required
+            maxlength="500"
+          ></textarea>
+          <input id="submit" type="submit" value="Get In Touch" />
+        </form>
+        <div class="error-message">
+            <small id="error"></small>
+        </div>
+      </div>
+    </section>
+    <!-- pop-up window -->
+     <div class="popupcontainer">
+  
+    </div> 
+    <script src="main.js"></script>
+    
+    
+  </body>
+</html>
