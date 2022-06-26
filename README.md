@@ -1,73 +1,38 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+Portfolio project
 
-# Project Name
+In this project we make a responsive porfolio project for both desktop and mobile version and also use linters for error checking and add some section header section for introducing myself and then add some projects link to show my other projects and then add about me section to show my experinece and skills and then add contact me section to it.
 
-> Description the project.
+Built With following technology
 
+HTML
+CSS
+linter for errors
+Getting Started
 
-## Built With
+In this project we have to clone a repo from github and then make a porfolio mobile version project.
 
-- Major languages
-- Frameworks
-- Technologies used
+[Live Demo Link] (https://basitali111.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
-## Live Demo (if available)
+👤 Author
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
+GitHub: @basitali111
+Twitter: @BasitAl35031734
+LinkedIn: basit-ali-3961141b3
+🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-## Show your support
+Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Hat tip to anyone whose code was used
+Inspiration
+etc
+📝 License
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+This project is MIT licensed.
