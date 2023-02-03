@@ -10,13 +10,13 @@ const main = document.querySelector('#porfilio');
 // function card profolio array
 const portfolio = [
   {
-    heading: 'Tonic',
-    area: 'Canopy',
-    deveoper: 'Back End Dev',
-    date: '2015',
+    heading: 'British-Classic-Meals',
+    area: 'Frontend',
+    deveoper: 'Full Stack Dev',
+    date: '2022',
     highlights:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required',
-    image: 'images/SnapshootPortfolio1.png',
+      ' This App is about British Food where you find a list of meals that you can like and comment.',
+    image: 'images/project1.png',
     btn1: 'html',
     btn2: 'css',
     btn3: 'javascript',
@@ -25,10 +25,10 @@ const portfolio = [
     btn6: 'bootstrap',
   },
   {
-    heading: 'Multi-Post Stories',
+    heading: 'ToDo-List',
     highlights:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/SnapshootPortfolio.png',
+      'This project contains a to-do list project where tasks can be added, marked as completed, and deleted. Users can edit a task by double-clicking on the task title section. A task can be deleted by clicking on the trash can icon on the right side of each task. Tasks can be marked as completed by clicking on the corresponding checkbox. All complete',
+    image: 'images/project2.png',
     area: 'Canopy',
     deveoper: 'Back End Dev',
     date: '2015',
@@ -40,31 +40,31 @@ const portfolio = [
     btn6: 'bootstrap',
   },
   {
-    heading: 'Tonic',
+    heading: 'Math Magicians',
     highlights:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/SnapshootPortfolio(1).png',
-    area: 'Canopy',
-    deveoper: 'Back End Dev',
-    date: '2015',
+      'Math-Magician is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations and read a random math-related quotes.',
+    image: 'images/project5.png',
+    area: 'Frontend',
+    deveoper: 'Full Stack Dev',
+    date: '2022',
     btn1: 'html',
     btn2: 'css',
-    btn3: 'javascript',
+    btn3: 'react',
     btn4: 'ruby',
     btn6: 'bootstrap',
     btn5: 'See project',
   },
   {
-    heading: 'Multi-Post Stories',
+    heading: 'Online-Shopping-Store',
     highlights:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/SnapshootPortfolio(2).png',
-    area: 'Canopy',
-    deveoper: 'Back End Dev',
-    date: '2015',
+      'online-shiopping-store - A web application based on an external API which contains information about items for sell. The web app allows the user to view one page with a list of items that could be filtered by some parameters. Its a list of metrics that can be filtered by each specific item on sell. It also shows one page for the item details',
+    image: 'images/project4.png',
+    area: 'Frontend',
+    deveoper: 'Full Stack Dev',
+    date: '2022',
     btn1: 'html',
     btn2: 'css',
-    btn3: 'javascript',
+    btn3: 'react',
     btn4: 'ruby',
     btn6: 'bootstrap',
     btn5: 'See project',
@@ -249,68 +249,68 @@ for (let i = 1; i <= 3; i += 1) {
 // popup loop
 const popuparray = [
   {
-    heading: 'Tonic',
-    area: 'Canopy',
-    deveoper: 'Back End Dev',
-    date: '2015',
+    heading: 'British-Classic-Meals',
+    area: 'Frontend',
+    deveoper: 'Full Stack Dev',
+    date: '2022',
     highlights:
-      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    image: 'images/SnapshootPortfolio1.png',
+      ' This App is about British Food where you find a list of meals that you can like and comment.',
+    image: 'images/project1.png',
     btn1: 'html',
     btn2: 'css',
     btn3: 'javascript',
     seeproject:
-      'https://basitali111.github.io/Portfolio-setup-and-mobile-version-skeleton/',
+      'https://tiagomarin.github.io/British-Classic-Meals/',
     seesource:
-      'https://github.com/basitali111/Portfolio-setup-and-mobile-version-skeleton',
+      'https://github.com/basitali111/British-Classic-Meals',
   },
   {
-    heading: 'Multi-Post Stories',
-    area: 'Canopy',
-    deveoper: 'Back End Dev',
-    date: '2015',
+    heading: 'ToDo-List',
+    area: 'Fronted',
+    deveoper: 'Full Stack Dev',
+    date: '2022',
     highlights:
-      "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy text eve since the 1500s, when an unknown printer took a galley of type andbled it to make a type specimen book. It has survived not onlyfive centuries, but also the leap into electronic typesetting, remaining essent",
-    image: 'images/SnapshootPortfolio.png',
+      'This project contains a to-do list project where tasks can be added, marked as completed, and deleted. Users can edit a task by double-clicking on the task title section. A task can be deleted by clicking on the trash can icon on the right side of each task. Tasks can be marked as completed by clicking on the corresponding checkbox. All complete',
+    image: 'images/project2.png',
     btn1: 'html',
     btn2: 'css',
     btn3: 'javascript',
     seeproject:
-      'https://basitali111.github.io/Portfolio-setup-and-mobile-version-skeleton/',
+      'https://basit-todolist.netlify.app/',
     seesource:
-      'https://github.com/basitali111/Portfolio-setup-and-mobile-version-skeleton',
+      'https://github.com/basitali111/ToDo-List',
   },
   {
-    heading: 'Tonic',
-    area: 'Canopy',
-    deveoper: 'Back End Dev',
-    date: '2015',
+    heading: 'Math Magicians',
+    area: 'Fronted',
+    deveoper: 'Full Stack Dev',
+    date: '2022',
     highlights:
-      " Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy text eve since the 1500s, when an unknown printer took a galley of type andbled it to make a type specimen book. It has survived not onlyfive centuries, but also the leap into electronic typesetting, remaining essent",
-    image: 'images/SnapshootPortfolio(1).png',
+      ' Math-Magician is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations and read a random math-related quotes.',
+    image: 'images/project5.png',
     btn1: 'html',
     btn2: 'css',
-    btn3: 'javascript',
+    btn3: 'react',
     seeproject:
-      'https://basitali111.github.io/Portfolio-setup-and-mobile-version-skeleton/',
+      'https://basit-math.netlify.app/calculator',
     seesource:
-      'https://github.com/basitali111/Portfolio-setup-and-mobile-version-skeleton',
+      'https://github.com/basitali111/Math-magicians-',
   },
   {
-    heading: 'Multi-Post Stories',
-    area: 'Canopy',
-    deveoper: 'Back End Dev',
-    date: '2015',
+    heading: 'Online-Shopping-Store',
+    area: 'Frontend',
+    deveoper: 'Full Stack Dev',
+    date: '2022',
     highlights:
-      "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy text eve since the 1500s, when an unknown printer took a galley of type andbled it to make a type specimen book. It has survived not onlyfive centuries, but also the leap into electronic typesetting, remaining essent",
-    image: 'images/SnapshootPortfolio(2).png',
+      " online-shiopping-store - A web application based on an external API which contains information about items for sell. The web app allows the user to view one page with a list of items that could be filtered by some parameters. It's a list of metrics that can be filtered by each specific item on sell. It also shows one page for the item details",
+    image: 'images/project4.png',
     btn1: 'html',
     btn2: 'css',
-    btn3: 'javascript',
+    btn3: 'react',
     seeproject:
-      'https://basitali111.github.io/Portfolio-setup-and-mobile-version-skeleton/',
+      'https://deploy-preview-1--basit-online-shopping.netlify.app/',
     seesource:
-      'https://github.com/basitali111/Portfolio-setup-and-mobile-version-skeleton',
+      'https://github.com/basitali111/online-shiopping-store',
   },
 ];
 
@@ -349,7 +349,7 @@ popuparray.forEach((element, i) => {
           <ul class="button">
             <li class="html"><a href="#" class="button1">HTML</a></li>
             <li class="css"><a href="#" class="button1">CSS</a></li>
-            <li class="java"><a href="#" class="button1">Javascript</a></li>
+            <li class="java"><a href="#" class="button1">${popuparray[i].btn3}</a></li>
           
           </ul>
           <div class="project-container">
