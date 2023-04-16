@@ -4,206 +4,418 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio:Setting Up Mobile Version</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <script src="script.js" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4a30d59e86.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Basit Ali - Portfolio</title>
   </head>
-
   <body>
-    <header class="header">
-      <div class="mobile-header">
-        <a href="#" class="logo">Basit Ali</a>
-        <nav>
-          <button type="button">
-            <i class="fa fa-bars" id="menu-img"></i>
-            <i class="w3-xxxlarge material-icons" id="close-icon">X</i>
-          </button>
-        </nav>
-        <div class="desktop-header">
-          <a href="#porfilio" id="portfolio">Portfolio</a>
-          <a href="#about1" id="about">About</a>
-          <a href="#contactx" id="contact">Contact</a>
+    <div id="body-wrapper">
+      <header>
+        <div class="top-bar">
+          <a href="#" class="logo">Basit Ali</a>
+          <nav class="nav-bar">
+            <ul class="bar-menu">
+              <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+            <ul class="menu pop-up hidden">
+              <li><i class="fa-solid fa-xmark close"></i></li>
+              <li><a href="#portfolio" class="menu-item">Portfolio</a></li>
+              <li><a href="#about" class="menu-item">About</a></li>
+              <li><a href="#contact" class="menu-item">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <div class="background-image">
-      <section class="headline">
-        <h1>I’m Basit Ali</h1>
-        <h2>Glad to see you!</h2>
-        <p>
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <a href="#">LET’S CONNECT</a>
-        <ul class="mediaicons">
-          <li>
-            <a href="https://twitter.com/BasitAl35031734"><img src="imges/twitter.png" alt="twitterhandle" /></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/basit-ali-jobs/"><img src="linked.png" alt="linkedprofilelink" /></a>
-          </li>
-          <li>
-            <a href="https://medium.com/@allahbadshah148"><img src="imges/mshape.png" alt="mshape" /></a>
-          </li>
-          <li>
-            <a href="https://github.com/basitali111"><img src="imges/github.png" alt="github" /></a>
-          </li>
-          <li>
-            <a href="https://angel.co/u/basit-ali-jobs"><img src="imges/hand.png" alt="handshape" /></a>
-          </li>
-        </ul>
-      </section>
-    </div>
-    <section id="porfilio">
-   
-    </section>
-    <section class="about" id="about1">
-      <div class="back">
-        <article class="self">
+      <main>
+        <section class="headline">
           <div>
-            <h2>
-              About<br />
-              My Self
+            <h1 class="headline-text drop-in">
+              I'm Basit Ali. <br />
+              Glad to see you!
+            </h1>
+            <h2 class="supporting-text drop-in-1">
+              As a <strong> full-stack developer</strong>, I harness the power of technology to solve problems and create seamless user experiences. Whether you need a product, feature, or website, I can help you bring your project to life! Check out my work and experience here and feel free to contact me anytime.
             </h2>
+            <button type="button" class="connect drop-in-2">LET'S CONNECT</button>
 
-            <p id="second-para">
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-            <h3 class="connet">LET’S CONNECT</h3>
-            <ul class="accounts" id="account2">
-              <li>
-                <a href="https://github.com/basitali111"><img src="images/github1.png" alt="github" /></a>
+            <ul class="social-icons drop-in-3">
+              <li class="icon twitter">
+                <span class="tooltip">Twitter</span>
+                <a
+                  class="icons"
+                  href="https://twitter.com/BasitAl35031734"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i
+                  class="fa-brands fa-twitter twitter"
+                  aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">Twitter</span>
+                </a>
               </li>
-
-              <li>
-                <a href="https://www.linkedin.com/in/basit-ali-jobs/"
-                  ><img src="images/Group.png" alt="linkedprofilelink"
-                /></a>
+              <li class="icon linkedin">
+                <span class="tooltip">LinkedIn</span>
+                <a
+                  class="icons"
+                  href="https://www.linkedin.com/in/basit-ali-jobs/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i
+                  class="fa-brands fa-linkedin-in"
+                  aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">LinkedIn</span>
+                </a>
               </li>
-              <li>
-                <a href="https://twitter.com/BasitAl35031734"
-                  ><img src="imges/twitter.png" alt="twitterhandle"
-                /></a>
+              <li class="icon mail">
+                <span class="tooltip">Gmail</span>
+                <a
+                  class="icons"
+                  href="mailto:allahbadshah148@gmail.com"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i
+                  class="fa-solid fa-m"
+                  aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">Gmail</span>
+                </a>
               </li>
-              <li>
-                <a href="https://medium.com/@allahbadshah148"><img src="images/mshape1.png" alt="mshape" /></a>
+              <li class="icon github">
+                <span class="tooltip">GitHub</span>
+                <a
+                  class="icons"
+                  href="https://github.com/basitali111"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i
+                  class="fa-brands fa-github"
+                  aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">GitHub</span>
+                </a>
               </li>
-              <li>
-                <a href="https://angel.co/u/basit-ali-jobs"><img src="images/hand1.png" alt="handshape" /></a>
+              <li class="icon wellfound">
+                <span class="tooltip">WellFound</span>
+                <a
+                  class="icons"
+                  href="https://wellfound.com/u/basit-ali-jobs"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i
+                  class="fa-brands fa-angellist"
+                  aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">Angellist</span>
+                </a>
               </li>
             </ul>
-            <div class="resume">
-              <a download="" href="images/MyResume.pdf" id="but"> Get my resume</a>
+          </div>
+        </section>
+
+        <div class="recent-work" id="portfolio"></div>
+        <div class="project-popup-container"></div>
+
+        <section class="about" id="about">
+          <div>
+            <div class="about-content">
+              <h2 class="headline-text about-title">About Myself</h2>
+              <p class="supporting-text about-description">
+                Hello I'm a full-stack developer! I can help you build a product,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don't hesitate to contact me.
+              </p>
+
+              <button type="button" class="connect">LET'S CONNECT</button>
+
+              <ul class="social-icons">
+                <li class="icon twitter">
+                  <span class="tooltip">Twitter</span>
+                  <a
+                    class="icons"
+                    href="https://twitter.com/BasitAl35031734"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i
+                    class="fa-brands fa-twitter twitter"
+                    aria-hidden="true">
+                    </i>
+                    <span class="fa-sr-only">Twitter</span>
+                  </a>
+                </li>
+                <li class="icon linkedin">
+                  <span class="tooltip">LinkedIn</span>
+                  <a
+                    class="icons"
+                    href="https://www.linkedin.com/in/basit-ali-jobs/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i
+                    class="fa-brands fa-linkedin-in"
+                    aria-hidden="true">
+                    </i>
+                    <span class="fa-sr-only">LinkedIn</span>
+                  </a>
+                </li>
+                <li class="icon mail">
+                  <span class="tooltip">Gmail</span>
+                  <a
+                    class="icons"
+                    href="mailto:allahbadshah148@gmail.com"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i
+                    class="fa-solid fa-m"
+                    aria-hidden="true">
+                    </i>
+                    <span class="fa-sr-only">Gmail</span>
+                  </a>
+                </li>
+                <li class="icon github">
+                  <span class="tooltip">GitHub</span>
+                  <a
+                    class="icons"
+                    href="https://github.com/basitali111"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i
+                    class="fa-brands fa-github"
+                    aria-hidden="true">
+                    </i>
+                    <span class="fa-sr-only">GitHub</span>
+                  </a>
+                </li>
+                <li class="icon wellfound">
+                  <span class="tooltip">WellFound</span>
+                  <a
+                    class="icons"
+                    href="https://wellfound.com/u/basit-ali-jobs"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i
+                    class="fa-brands fa-angellist"
+                    aria-hidden="true">
+                    </i>
+                    <span class="fa-sr-only">Angellist</span>
+                  </a>
+                </li>
+              </ul>
+
+              <a href="./images/MyResume.pdf" target="_blank" rel="noopener noreferrer" class="resume-btn button">Get my resume</a>
+            </div>
+
+            <div class="skills">
+              <ul>
+                <li class="skill-item active">
+                  <div class="item-1-header">
+                    Languages <i class="fa-solid fa-angle-down down arrow"></i>
+                  </div>
+                  <div class="item-1-list">
+                    <ul>
+                      <li class="fly-in-1">
+                        <img
+                          src="./images/languages/HTML.svg"
+                          alt="HTML"
+                        />
+                        HTML
+                      </li>
+                      <li class="fly-in-2">
+                        <img src="./images/languages/CSS.svg" alt="CSS" />
+                        CSS
+                      </li>
+                      <li class="fly-in-3">
+                        <img
+                          src="./images/languages/JavaScript.svg"
+                          alt="JavaScript"
+                        />
+                        JavaScript
+                      </li>
+                      <li class="fly-in-4" >
+                        <img
+                          src="./images/languages/MySQL.png"
+                          alt="MySQL"
+                        />
+                        MySQL
+                      </li>
+                      <li class="fly-in-5" >
+                        <img
+                          src="./images/languages/PostgreSQL.png"
+                          alt="PostgreSQL"
+                        />
+                        PostgreSQL
+                      </li>
+                      <li class="fly-in-6" >
+                        <img src="./images/languages/Ruby.svg" alt="Ruby" />
+                        Ruby
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="item-1-header">
+                    Frameworks <i class="fa-solid fa-angle-right next arrow"></i>
+                  </div>
+                  <div class="item-1-list">
+                    <ul>
+                      <li class="fly-in-1">
+                        <img
+                          src="./images/frameworks/Bootstrap.svg"
+                          alt="RoR"
+                        />
+                        Bootstrap
+                      </li>
+                      <li class="fly-in-2">
+                        <img
+                          src="./images/frameworks/React.svg"
+                          alt="React"
+                        />
+                        React
+                      </li>
+                      <li class="fly-in-3">
+                        <img
+                          src="./images/frameworks/Next.png"
+                          alt="Next"
+                        />
+                        Next
+                      </li>
+                      <li class="fly-in-4">
+                        <img
+                          src="./images/frameworks//Redux.png"
+                          alt="Redux"
+                        />
+                        Redux
+                      </li>
+                      <li class="fly-in-5">
+                        <img
+                          src="./images/frameworks/Rails.svg"
+                          alt="Ruby on Rails"
+                        />
+                        RoR
+                      </li>
+                      <li class="fly-in-6">
+                        <img
+                          src="./images/frameworks/Rspec.png"
+                          alt="Rspec"
+                        />
+                        Rspec
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="item-1-header">
+                    Skills <i class="fa-solid fa-angle-right next arrow"></i>
+                  </div>
+                  <div class="item-1-list">
+                    <ul>
+                      <li class="fly-in-1">
+                        <img
+                          src="./images/skills/GitHub.svg"
+                          alt="GitHub"
+                        />
+                        GitHub
+                      </li>
+                      <li class="fly-in-2">
+                        <img
+                          src="./images/skills/GitLab.svg"
+                          alt="GitLab"
+                        />
+                        GitLab
+                      </li>
+                      <li class="fly-in-3">
+                        <img
+                          src="./images/skills/Teamwork.png"
+                          alt="Teamwork"
+                        />
+                        Teamwork
+                      </li>
+                      <li class="fly-in-4">
+                        <img
+                          src="./images/skills/Mentoring.png"
+                          alt="Mentoring"
+                        />
+                        Mentoring
+                      </li>
+                      <li class="fly-in-5">
+                        <img
+                          src="./images/skills/Analytical.png"
+                          alt="Analytical"
+                        />
+                        Analytical
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="lan">
-            <ul>
-              <li class="skill">
-                Languages &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<img
-                  class="dropdown"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKxJREFUSEvtk9ENwjAMRF83YJN2BJiIEUo36EYwAmzCCOgkkEIax85HJZDirza63rMv7sDONezsTwe4CfeIfj+iC7ACT6PVA3AGFmuU2iXLfAbuwKkAkfkVmN4A6TdVA8jgBowFSGr+AI7WlN6aliDq8tN51VxCDyBNDtGZYnHNo4AcoveQeQsghejZzDy/5UhE6TeKS2WtbdMWuX9pRNA6QcTzS9MBbmT/H9ELPngdGfgDn7kAAAAASUVORK5CYII="
-                  alt="dropdown"
+        </section>
+      </main>
+
+      <footer id="contact">
+        <section class="contact-form">
+          <div class="contact-wrapper">
+            <div>
+              <h2 class="contact-title">Contact me</h2>
+              <p class="contact-description">
+                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+              </p>
+              <form
+                action="https://formspree.io/f/mjvzkyre"
+                method="post"
+                id="form"
+              >
+                <label hidden for="text"> Name </label>
+                <input
+                  type="text"
+                  id="text"
+                  name="text"
+                  maxlength="30"
+                  placeholder="Enter your name"
+                  required
                 />
-              </li>
-              <li id="pro-li">
-                <ul class="pro">
-                  <li class="pro-item">
-                    <img src="images/html.png" alt="skill" />
-                    <p>HTML</p>
-                  </li>
-                  <li class="pro-item">
-                    <img src="images/css.png" alt="skill" />
-                    <p>CSS</p>
-                  </li>
-                  <li class="pro-item">
-                    <img src="images/javascript.png" alt="skill" />
-                    <p id="pro-item3">Javascript</p>
-                  </li>
-                </ul>
-              </li>
-              <li class="frame">
-                Frameworks
-                <img
-                  class="drop2"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJVJREFUSEvt1EENgDAQRNFfBzgBCeAARyABJ0gACeAECWRvwIHubNKEAz0387rTtInCKxXO5weyDX+qohGYgCN77MsG7wQWPgAb0CmIF6iAFahVxAvY0CFEAUKICshIFFiABtiB9u3SVcDuwR1u4yqAHK4AoXAF6IHZ0/nzlSsVGWKPrchXoXw/t73KBCHkB7K1Fa/oBCp+IhnuHeH5AAAAAElFTkSuQmCC"
-                  alt="dropdown"
+                <label hidden for="text"> Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
                 />
-              </li>
-              <li class="Skills">
-                Skills
-                <img
-                  class="drop3"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJVJREFUSEvt1EENgDAQRNFfBzgBCeAARyABJ0gACeAECWRvwIHubNKEAz0387rTtInCKxXO5weyDX+qohGYgCN77MsG7wQWPgAb0CmIF6iAFahVxAvY0CFEAUKICshIFFiABtiB9u3SVcDuwR1u4yqAHK4AoXAF6IHZ0/nzlSsVGWKPrchXoXw/t73KBCHkB7K1Fa/oBCp+IhnuHeH5AAAAAElFTkSuQmCC"
-                  alt="dropdown"
-                />
-              </li>
-            </ul>
+                <label hidden for="text"> Add your coment</label>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  maxlength="500"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+                <button type="submit" class="form-btn button">
+                  Get In Touch
+                </button>
+                <span class="message"></span>
+              </form>
+            </div>
           </div>
-        </article>
-      </div>
-    </section>
-    <section class="contact-me" id="contactx">
-      <h2>Contact me</h2>
-      <p id="contact-p">
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I’d love to help
-        with it
-      </p>
-      <div>
-        <form method="post" action="https://formspree.io/f/mnqwrjkp" id="form1">
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Full Name"
-            required
-            maxlength="30"
-          />
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email"
-            required
-          />
-          <textarea
-            name="message"
-            id="message"
-            rows="10"
-            cols="30"
-            placeholder="Write your message here"
-            required
-            maxlength="500"
-          ></textarea>
-          <input id="submit" type="submit" value="Get In Touch" />
-        </form>
-        <div class="error-message">
-            <small id="error"></small>
-        </div>
-      </div>
-    </section>
-    <!-- pop-up window -->
-     <div class="popupcontainer">
-  
-    </div> 
-    <script src="main.js"></script>
-    
-    
+        </section>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
   </body>
 </html>
