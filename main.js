@@ -48,7 +48,7 @@ window.onload = () => {
       subtitle: 'Book your next trip',
       techStack: 'Full Stack Dev',
       year: 2023,
-      src: './images/projects/CarReserve.png',
+      src: './images/projects/Car reserve.png',
       highlight: 'This repo holds the BackEnd development source for the Car Reservation App, the worlds best free car reservation website. Car Reservation allows user to add car and see the car model and shop it.',
       description: 'This repo holds the BackEnd development source for the Car Reservation App, the world best free car reservation website. Car Reservation allows user to add car and see the car model and shop it',
       lang: ['Ruby on Rails', 'PostgreSql', 'JWT', 'React', 'Redux', 'Netlify'],
